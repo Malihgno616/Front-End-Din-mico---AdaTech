@@ -20,7 +20,7 @@ btnDiminuir.addEventListener("click", (event) => {
   btnDiminuir.classList.add("btn");
   btnAumentar.classList.remove("btn");
 });
-
+ 
 input.addEventListener("input", () => {
   console.log(input.value);
 });
