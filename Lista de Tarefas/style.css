@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+
+header {
+  background-color: #214602;
+  width: 100%;
+  color: #f8f8f8;
+}
+
+@media (max-width: 740px) {
+  header {
+    font-size: 0.75rem;
+  }
+}
+
+header div {
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#todo-form {
+  padding: 1rem;
+}
+
+@media (max-width: 740px) {
+  #todo-form {
+    padding: 0.5rem;
+  }
+}
+
+#task-title-input {
+  width: 100%;
+}
+
+#todo-form #add-task-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #214602;
+  cursor: pointer;
+  color: #f8f8f8;
+}
+
+#todo-list {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+#todo-list li {
+  padding: 2rem;
+}
+
+
+#todo-list button {
+  background-color: #52aa0a;
+  margin-left: 10px;
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+#todo-list input {
+  margin-left: 10px;
+  padding: 2rem;
+}
+
+@media (max-width: 740px) {
+  #todo-list li {
+    padding: 1.1rem;
+  }
+  #todo-list button {
+    padding: 0.2rem;
+  }
+}
