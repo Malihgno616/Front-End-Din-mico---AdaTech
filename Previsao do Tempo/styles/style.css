@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #f7f8f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 2rem;
+  max-width: 700px;
+  background-color: #2e2e2e;
+  border-radius: 1rem;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#search-form {
+  display: flex;
+}
+
+#search-form form {
+  display: flex;
+  gap: 0.2rem;
+  width: 100%;
+}
+
+#search-form input {
+  flex: 1;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#search-form button {
+  background-color: #418343;
+  color: #f7f8f8;
+  border: none;
+  padding: 0rem 1rem;
+  border-radius: 0.7rem;
+}
+
+#tempo-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#tempo-info .tempo-dados h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+
+#tempo-info .tempo-dados span {
+  font-size: 3rem;
+  font-weight: 700;
+}
